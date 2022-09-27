@@ -1,0 +1,125 @@
+body{
+	font-family: 'Arimo',sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+/*partie header*/
+header{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 10px 20px; /*10 est pour la verticale, 20 pour l'horizontale*/
+}
+header .left{
+	display: flex;
+	flex-wrap:wrap;
+}
+
+header p{
+	margin-right: 10px;
+}
+
+header .right{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+header{
+	margin-right: 10px;
+	color: #787878;
+	cursor: pointer;
+}
+
+header p:hover{
+	color: #000;
+}
+
+header .right svg{
+	height: 30px;
+	width: 30px;
+	margin-top: 10px; /*permet de faire descendre l'image*/
+	margin-right: 10px; /*permet de mettre un espace entre les mots*/
+	cursor: pointer;
+}
+/*fin partie header*/
+
+/*body, partie main*/
+.main{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 100px;
+}
+
+.main .regroupement{
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+}
+
+.main .regroupement input{
+	margin-top: 20px;
+	padding: 15px;
+	border-radius: 50px;
+	border: 1px solid #D1D1D1;
+	outline: none;
+	width: 100%;
+}
+
+.main .regroupement input:hover{
+	-webkit-box-shadow: -18px 10px 59px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -18px 10px 59px -3px rgba(0,0,0,0.75);
+box-shadow: -18px 10px 59px -3px rgba(0,0,0,0.75);
+} /*infos prises sur le site "cssmatic" pour les ombres*/
+
+.main .regroupement label i{
+	float: right;
+	font-size: 20px; /*c'est la taille du logo*/
+	margin-top: -35px;
+	margin-right: -15px;
+	position: relative;
+	cursor: pointer;
+	color: #5C5C5C;
+}
+
+.main .buttons{
+	margin-top: 40px;
+}
+
+.main .buttons button{
+	padding: 10px 20px; /*marge interieure*/
+	background-color: #f0f0f0;
+	border: none;
+	border-radius: 5px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+/*body, fin partie main*/
+
+/*footer derniere partie*/
+footer{
+	background-color: F2F2F2;
+	position: fixed;
+	bottom: 0;
+	width: 100vw;
+	justify-content: space-between;
+}
+
+footer .left{
+	justify-content: space-evenly;
+	margin-left: 20px;
+	align-items: center;
+	display: flex;
+	margin-bottom: -50px;
+}
+
+Footer .right{
+	display: flex;
+	margin-right: 20px;
+	align-items: stretch;
+	justify-self: right;
+}
+
+
+
